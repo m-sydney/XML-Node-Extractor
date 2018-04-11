@@ -16,6 +16,8 @@ Public Class FileHandler
                 Nodes.Add(node.OuterXml.ToLower)
             Next
 
+        Catch XPathEx As XPathException
+            Console.WriteLine("XPath error: invalid Path provided")
         Catch ex As Exception
             Console.WriteLine("Other exception")
         End Try
