@@ -3,7 +3,7 @@ Imports XML_Node_Extractor
 Imports System.Xml.XPath
 Imports System.Xml
 Public Class Form1
-    Private Handler As FileHandler
+    Private Handler As New FileHandler
     Private FilePath As String
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -29,15 +29,17 @@ Public Class Form1
     End Sub
 
     Private Sub btnLoadXMLNode_Click(sender As Object, e As EventArgs) Handles btnLoadXMLNode.Click
+        lbxNodes.Items.Clear()
         Try
-            For Each node As String In Handler.GetNodes(FilePath)
+            Dim XPath As String = tbxXMLPath.Text
+            For Each node As String In Handler.GetNodes(FilePath, XPath)
                 lbxNodes.Items.Add(node)
             Next
 
         Catch XPathEx As XPathException
             MessageBox.Show("XPath provided is not a valid path")
         Catch ex As Exception
-
+            MessageBox.Show(ex.ToString())
         End Try
     End Sub
 
