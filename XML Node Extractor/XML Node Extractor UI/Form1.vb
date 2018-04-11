@@ -25,6 +25,16 @@ Public Class Form1
     End Sub
 
     Private Sub tbxXMLPath_TextChanged(sender As Object, e As EventArgs) Handles tbxXMLPath.TextChanged
+        Dim pathlength As Integer = tbxXMLPath.Text.Length
+
+        If (pathlength < 1) Then
+            btnLoadXMLNode.Enabled = False
+            lbxNodes.Items.Clear()
+        Else
+            btnLoadXMLNode.Enabled = True
+        End If
+
+
 
     End Sub
 
@@ -46,7 +56,7 @@ Public Class Form1
     Private Sub Check(ByVal FilePath As String)
         If (Not tbxXMLFile.Text.Length().Equals(0) And Path.GetExtension(FilePath).ToLower.Substring(1) = "xml") Then
             tbxXMLPath.Enabled = True
-            btnLoadXMLNode.Enabled = True
+
         Else
             tbxXMLPath.Enabled = False
             btnLoadXMLNode.Enabled = False

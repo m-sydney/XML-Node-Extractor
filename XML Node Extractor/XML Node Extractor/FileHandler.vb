@@ -15,8 +15,7 @@ Public Class FileHandler
             For Each node As XmlNode In NodeList
                 Nodes.Add(node.OuterXml.ToLower)
             Next
-        Catch XPathEx As XPathException
-            Console.WriteLine(XPathEx.Message)
+
         Catch ex As Exception
             Console.WriteLine("Other exception")
         End Try
