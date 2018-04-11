@@ -32,9 +32,9 @@ Partial Class Form1
         '
         'btnXmlFile
         '
-        Me.btnXmlFile.Location = New System.Drawing.Point(244, 12)
+        Me.btnXmlFile.Location = New System.Drawing.Point(199, 12)
         Me.btnXmlFile.Name = "btnXmlFile"
-        Me.btnXmlFile.Size = New System.Drawing.Size(75, 23)
+        Me.btnXmlFile.Size = New System.Drawing.Size(120, 23)
         Me.btnXmlFile.TabIndex = 0
         Me.btnXmlFile.Text = "XML File"
         Me.btnXmlFile.UseVisualStyleBackColor = True
@@ -43,29 +43,29 @@ Partial Class Form1
         '
         Me.tbxXMLFile.Location = New System.Drawing.Point(6, 12)
         Me.tbxXMLFile.Name = "tbxXMLFile"
-        Me.tbxXMLFile.Size = New System.Drawing.Size(232, 22)
+        Me.tbxXMLFile.Size = New System.Drawing.Size(186, 22)
         Me.tbxXMLFile.TabIndex = 1
         '
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Location = New System.Drawing.Point(6, 110)
+        Me.ListBox1.Location = New System.Drawing.Point(6, 115)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(313, 132)
+        Me.ListBox1.Size = New System.Drawing.Size(313, 164)
         Me.ListBox1.TabIndex = 2
         '
         'tbxXMLPath
         '
-        Me.tbxXMLPath.Location = New System.Drawing.Point(6, 82)
+        Me.tbxXMLPath.Location = New System.Drawing.Point(6, 57)
         Me.tbxXMLPath.Name = "tbxXMLPath"
-        Me.tbxXMLPath.Size = New System.Drawing.Size(186, 22)
+        Me.tbxXMLPath.Size = New System.Drawing.Size(310, 22)
         Me.tbxXMLPath.TabIndex = 3
         '
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(6, 59)
+        Me.Label1.Location = New System.Drawing.Point(3, 37)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(69, 17)
         Me.Label1.TabIndex = 4
@@ -73,7 +73,7 @@ Partial Class Form1
         '
         'btnLoadXMLNode
         '
-        Me.btnLoadXMLNode.Location = New System.Drawing.Point(199, 80)
+        Me.btnLoadXMLNode.Location = New System.Drawing.Point(6, 81)
         Me.btnLoadXMLNode.Name = "btnLoadXMLNode"
         Me.btnLoadXMLNode.Size = New System.Drawing.Size(120, 23)
         Me.btnLoadXMLNode.TabIndex = 5
@@ -84,7 +84,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(328, 253)
+        Me.ClientSize = New System.Drawing.Size(328, 303)
         Me.Controls.Add(Me.btnLoadXMLNode)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.tbxXMLPath)

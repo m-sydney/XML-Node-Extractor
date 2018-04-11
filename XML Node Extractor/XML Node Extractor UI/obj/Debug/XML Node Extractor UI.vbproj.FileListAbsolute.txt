@@ -17,3 +17,14 @@ C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Ext
 C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\obj\Debug\XML_Node_Extractor_UI.exe
 C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\obj\Debug\XML_Node_Extractor_UI.xml
 C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\obj\Debug\XML_Node_Extractor_UI.pdb
+C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\bin\Debug\test.xml
+C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\bin\Debug\XML_Node_Extractor_UI.exe
+C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\bin\Debug\XML_Node_Extractor_UI.pdb
+C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\bin\Debug\XML_Node_Extractor_UI.xml
+C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\bin\Debug\XML Node Extractor.exe
+C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\bin\Debug\XML Node Extractor.pdb
+C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\bin\Debug\XML Node Extractor.xml
+C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\obj\Debug\XML Node Extractor UI.vbprojResolveAssemblyReference.cache
+C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\obj\Debug\XML_Node_Extractor_UI.Form1.resources
+C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\obj\Debug\XML_Node_Extractor_UI.Resources.resources
+C:\Users\Siemens\Source\Repos\XML-Node-Extractor\XML Node Extractor\XML Node Extractor UI\obj\Debug\XML Node Extractor UI.vbproj.GenerateResource.Cache

@@ -1,7 +1,8 @@
 ﻿Imports System.IO
-Imports System.Windows.Forms
 Imports XML_Node_Extractor
+Imports System.Xml.XPath
 Public Class Form1
+    Private Handler As FileHandler
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         tbxXMLFile.ReadOnly = True
         tbxXMLPath.Enabled = False
@@ -15,15 +16,19 @@ Public Class Form1
         Try
             tbxXMLFile.Text = Path.GetFileName(FilePath)
             Check(FilePath)
-
-
         Catch ex As Exception
 
         End Try
     End Sub
 
     Private Sub btnLoadXMLNode_Click(sender As Object, e As EventArgs) Handles btnLoadXMLNode.Click
+        Try
 
+        Catch XPathEx As XPathException
+            MessageBox.Show("XPath provided is not a valid path")
+        Catch ex As Exception
+
+        End Try
     End Sub
 
     Private Sub Check(ByVal FilePath As String)
