@@ -33,9 +33,6 @@ Public Class Form1
         Else
             btnLoadXMLNode.Enabled = True
         End If
-
-
-
     End Sub
 
     Private Sub btnLoadXMLNode_Click(sender As Object, e As EventArgs) Handles btnLoadXMLNode.Click
