@@ -24,7 +24,7 @@ Partial Class Form1
     Private Sub InitializeComponent()
         Me.btnXmlFile = New System.Windows.Forms.Button()
         Me.tbxXMLFile = New System.Windows.Forms.TextBox()
-        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.lbxNodes = New System.Windows.Forms.ListBox()
         Me.tbxXMLPath = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.btnLoadXMLNode = New System.Windows.Forms.Button()
@@ -46,14 +46,14 @@ Partial Class Form1
         Me.tbxXMLFile.Size = New System.Drawing.Size(186, 22)
         Me.tbxXMLFile.TabIndex = 1
         '
-        'ListBox1
+        'lbxNodes
         '
-        Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.ItemHeight = 16
-        Me.ListBox1.Location = New System.Drawing.Point(6, 115)
-        Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(313, 164)
-        Me.ListBox1.TabIndex = 2
+        Me.lbxNodes.FormattingEnabled = True
+        Me.lbxNodes.ItemHeight = 16
+        Me.lbxNodes.Location = New System.Drawing.Point(6, 115)
+        Me.lbxNodes.Name = "lbxNodes"
+        Me.lbxNodes.Size = New System.Drawing.Size(313, 164)
+        Me.lbxNodes.TabIndex = 2
         '
         'tbxXMLPath
         '
@@ -88,7 +88,7 @@ Partial Class Form1
         Me.Controls.Add(Me.btnLoadXMLNode)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.tbxXMLPath)
-        Me.Controls.Add(Me.ListBox1)
+        Me.Controls.Add(Me.lbxNodes)
         Me.Controls.Add(Me.tbxXMLFile)
         Me.Controls.Add(Me.btnXmlFile)
         Me.Name = "Form1"
@@ -100,7 +100,7 @@ Partial Class Form1
 
     Friend WithEvents btnXmlFile As Button
     Friend WithEvents tbxXMLFile As TextBox
-    Friend WithEvents ListBox1 As ListBox
+    Friend WithEvents lbxNodes As ListBox
     Friend WithEvents tbxXMLPath As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents btnLoadXMLNode As Button
