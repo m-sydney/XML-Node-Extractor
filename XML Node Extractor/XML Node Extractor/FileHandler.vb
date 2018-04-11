@@ -2,15 +2,15 @@
 Imports System.Xml.XPath
 
 Public Class FileHandler
-    Public Function GetNodes(ByVal Path As String) As List(Of String)
+    Public Function GetNodes(ByVal XMLDocument As String, ByVal XPath As String) As List(Of String)
         Dim Nodes As New List(Of String)
         Dim XMLDoc As New XmlDocument
 
         Try
-            XMLDoc.Load("test.xml")
+            XMLDoc.Load(XMLDocument)
             Dim Root As XmlNode = XMLDoc.DocumentElement
 
-            Dim NodeList As XmlNodeList = XMLDoc.SelectNodes("//File/Name")
+            Dim NodeList As XmlNodeList = XMLDoc.SelectNodes(XPath)
 
             For Each node As XmlNode In NodeList
                 Nodes.Add(node.OuterXml.ToLower)
