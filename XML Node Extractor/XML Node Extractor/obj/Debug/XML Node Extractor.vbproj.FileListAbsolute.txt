@@ -1,0 +1,11 @@
+Y:\XML Node Extractor\XML Node Extractor\bin\Debug\XML Node Extractor.exe.config
+Y:\XML Node Extractor\XML Node Extractor\bin\Debug\XML Node Extractor.exe
+Y:\XML Node Extractor\XML Node Extractor\bin\Debug\XML Node Extractor.pdb
+Y:\XML Node Extractor\XML Node Extractor\bin\Debug\XML Node Extractor.xml
+Y:\XML Node Extractor\XML Node Extractor\obj\Debug\XML Node Extractor.vbprojResolveAssemblyReference.cache
+Y:\XML Node Extractor\XML Node Extractor\obj\Debug\XML_Node_Extractor.Resources.resources
+Y:\XML Node Extractor\XML Node Extractor\obj\Debug\XML Node Extractor.vbproj.GenerateResource.Cache
+Y:\XML Node Extractor\XML Node Extractor\obj\Debug\XML Node Extractor.exe
+Y:\XML Node Extractor\XML Node Extractor\obj\Debug\XML Node Extractor.xml
+Y:\XML Node Extractor\XML Node Extractor\obj\Debug\XML Node Extractor.pdb
+Y:\XML Node Extractor\XML Node Extractor\bin\Debug\test.xml
