@@ -5,9 +5,9 @@ Module Module1
         Dim Handler As New FileHandler
         Dim xmlfile As String = "test.xml"
 
-        For Each node As String In Handler.GetNodes(xmlfile)
-            Console.WriteLine(node.ToString())
-        Next
+        'For Each node As String In Handler.GetNodes(xmlfile, "//*")
+        'Console.WriteLine(node.ToString())
+        'Next
 
         Console.ReadLine()
 
